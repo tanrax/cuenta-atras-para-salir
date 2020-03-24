@@ -1,0 +1,33 @@
+:root {
+    --color-azul: rgba(91, 192, 235, 1);
+    --color-amarillo: rgba(253, 231, 76, 1);
+    --color-verde: rgba(155, 197, 61, 1);
+    --color-rojo: rgba(195, 66, 63, 1);
+    --color-morado: rgba(33, 26, 30, 1);
+    --color-blanco: #fff
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(45deg, var(--color-rojo), var(--color-morado));
+    color: var(--color-amarillo);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__title {
+    text-align: center;
+}
+
+.app__time {
+    font-size: 3rem;
+    color: var(--color-blanco);
+    text-align: center;
+}
