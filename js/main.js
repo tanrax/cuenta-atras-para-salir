@@ -1,5 +1,5 @@
 // Variables
-const fechaFin = new Date('04/13/2020 0:01 AM');
+const fechaFin = new Date('04/26/2020 0:01 AM');
 const spanDays = document.querySelector('span#days');
 const spanHours = document.querySelector('span#hours');
 const spanMinutes = document.querySelector('span#minutes');
